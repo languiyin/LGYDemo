@@ -17,6 +17,8 @@
 		18407BCB1C4750F300800EAD /* LGYDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BCA1C4750F300800EAD /* LGYDemoTests.m */; };
 		18407BD61C4750F300800EAD /* LGYDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BD51C4750F300800EAD /* LGYDemoUITests.m */; };
 		18407BE61C47542400800EAD /* readme.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18407BE51C47542400800EAD /* readme.strings */; };
+		18407BF11C47700C00800EAD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BEF1C47700C00800EAD /* FirstViewController.m */; };
+		18407BF21C47700C00800EAD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18407BF01C47700C00800EAD /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		18407BD51C4750F300800EAD /* LGYDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGYDemoUITests.m; sourceTree = "<group>"; };
 		18407BD71C4750F300800EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18407BE51C47542400800EAD /* readme.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = readme.strings; sourceTree = "<group>"; };
+		18407BEE1C47700C00800EAD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		18407BEF1C47700C00800EAD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		18407BF01C47700C00800EAD /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				18407BB91C4750F200800EAD /* LGYDemo.xcdatamodeld */,
 				18407BAD1C4750F200800EAD /* Supporting Files */,
 				18407BE51C47542400800EAD /* readme.strings */,
+				18407BEE1C47700C00800EAD /* FirstViewController.h */,
+				18407BEF1C47700C00800EAD /* FirstViewController.m */,
+				18407BF01C47700C00800EAD /* FirstViewController.xib */,
 			);
 			path = LGYDemo;
 			sourceTree = "<group>";
@@ -268,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18407BE61C47542400800EAD /* readme.strings in Resources */,
+				18407BF21C47700C00800EAD /* FirstViewController.xib in Resources */,
 				18407BC01C4750F200800EAD /* LaunchScreen.storyboard in Resources */,
 				18407BBD1C4750F200800EAD /* Assets.xcassets in Resources */,
 				18407BB81C4750F200800EAD /* Main.storyboard in Resources */,
@@ -297,6 +306,7 @@
 			files = (
 				18407BB51C4750F200800EAD /* ViewController.m in Sources */,
 				18407BBB1C4750F200800EAD /* LGYDemo.xcdatamodeld in Sources */,
+				18407BF11C47700C00800EAD /* FirstViewController.m in Sources */,
 				18407BB21C4750F200800EAD /* AppDelegate.m in Sources */,
 				18407BAF1C4750F200800EAD /* main.m in Sources */,
 			);
