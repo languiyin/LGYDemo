@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18407BAF1C4750F200800EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BAE1C4750F200800EAD /* main.m */; };
+		18407BB21C4750F200800EAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BB11C4750F200800EAD /* AppDelegate.m */; };
+		18407BB51C4750F200800EAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BB41C4750F200800EAD /* ViewController.m */; };
+		18407BB81C4750F200800EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18407BB61C4750F200800EAD /* Main.storyboard */; };
+		18407BBB1C4750F200800EAD /* LGYDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18407BB91C4750F200800EAD /* LGYDemo.xcdatamodeld */; };
+		18407BBD1C4750F200800EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18407BBC1C4750F200800EAD /* Assets.xcassets */; };
+		18407BC01C4750F200800EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18407BBE1C4750F200800EAD /* LaunchScreen.storyboard */; };
+		18407BCB1C4750F300800EAD /* LGYDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BCA1C4750F300800EAD /* LGYDemoTests.m */; };
+		18407BD61C4750F300800EAD /* LGYDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BD51C4750F300800EAD /* LGYDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18407BC71C4750F300800EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18407BA21C4750F200800EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18407BA91C4750F200800EAD;
+			remoteInfo = LGYDemo;
+		};
+		18407BD21C4750F300800EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18407BA21C4750F200800EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18407BA91C4750F200800EAD;
+			remoteInfo = LGYDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18407BAA1C4750F200800EAD /* LGYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18407BAE1C4750F200800EAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18407BB01C4750F200800EAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18407BB11C4750F200800EAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18407BB31C4750F200800EAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18407BB41C4750F200800EAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18407BB71C4750F200800EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18407BBA1C4750F200800EAD /* LGYDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LGYDemo.xcdatamodel; sourceTree = "<group>"; };
+		18407BBC1C4750F200800EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18407BBF1C4750F200800EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18407BC11C4750F200800EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18407BC61C4750F300800EAD /* LGYDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGYDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18407BCA1C4750F300800EAD /* LGYDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGYDemoTests.m; sourceTree = "<group>"; };
+		18407BCC1C4750F300800EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18407BD11C4750F300800EAD /* LGYDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGYDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18407BD51C4750F300800EAD /* LGYDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGYDemoUITests.m; sourceTree = "<group>"; };
+		18407BD71C4750F300800EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18407BA71C4750F200800EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BC31C4750F300800EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BCE1C4750F300800EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18407BA11C4750F200800EAD = {
+			isa = PBXGroup;
+			children = (
+				18407BAC1C4750F200800EAD /* LGYDemo */,
+				18407BC91C4750F300800EAD /* LGYDemoTests */,
+				18407BD41C4750F300800EAD /* LGYDemoUITests */,
+				18407BAB1C4750F200800EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18407BAB1C4750F200800EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18407BAA1C4750F200800EAD /* LGYDemo.app */,
+				18407BC61C4750F300800EAD /* LGYDemoTests.xctest */,
+				18407BD11C4750F300800EAD /* LGYDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18407BAC1C4750F200800EAD /* LGYDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18407BB01C4750F200800EAD /* AppDelegate.h */,
+				18407BB11C4750F200800EAD /* AppDelegate.m */,
+				18407BB31C4750F200800EAD /* ViewController.h */,
+				18407BB41C4750F200800EAD /* ViewController.m */,
+				18407BB61C4750F200800EAD /* Main.storyboard */,
+				18407BBC1C4750F200800EAD /* Assets.xcassets */,
+				18407BBE1C4750F200800EAD /* LaunchScreen.storyboard */,
+				18407BC11C4750F200800EAD /* Info.plist */,
+				18407BB91C4750F200800EAD /* LGYDemo.xcdatamodeld */,
+				18407BAD1C4750F200800EAD /* Supporting Files */,
+			);
+			path = LGYDemo;
+			sourceTree = "<group>";
+		};
+		18407BAD1C4750F200800EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18407BAE1C4750F200800EAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18407BC91C4750F300800EAD /* LGYDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18407BCA1C4750F300800EAD /* LGYDemoTests.m */,
+				18407BCC1C4750F300800EAD /* Info.plist */,
+			);
+			path = LGYDemoTests;
+			sourceTree = "<group>";
+		};
+		18407BD41C4750F300800EAD /* LGYDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18407BD51C4750F300800EAD /* LGYDemoUITests.m */,
+				18407BD71C4750F300800EAD /* Info.plist */,
+			);
+			path = LGYDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18407BA91C4750F200800EAD /* LGYDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18407BDA1C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemo" */;
+			buildPhases = (
+				18407BA61C4750F200800EAD /* Sources */,
+				18407BA71C4750F200800EAD /* Frameworks */,
+				18407BA81C4750F200800EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGYDemo;
+			productName = LGYDemo;
+			productReference = 18407BAA1C4750F200800EAD /* LGYDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18407BC51C4750F300800EAD /* LGYDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18407BDD1C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoTests" */;
+			buildPhases = (
+				18407BC21C4750F300800EAD /* Sources */,
+				18407BC31C4750F300800EAD /* Frameworks */,
+				18407BC41C4750F300800EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18407BC81C4750F300800EAD /* PBXTargetDependency */,
+			);
+			name = LGYDemoTests;
+			productName = LGYDemoTests;
+			productReference = 18407BC61C4750F300800EAD /* LGYDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18407BD01C4750F300800EAD /* LGYDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18407BE01C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoUITests" */;
+			buildPhases = (
+				18407BCD1C4750F300800EAD /* Sources */,
+				18407BCE1C4750F300800EAD /* Frameworks */,
+				18407BCF1C4750F300800EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18407BD31C4750F300800EAD /* PBXTargetDependency */,
+			);
+			name = LGYDemoUITests;
+			productName = LGYDemoUITests;
+			productReference = 18407BD11C4750F300800EAD /* LGYDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18407BA21C4750F200800EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zyfc;
+				TargetAttributes = {
+					18407BA91C4750F200800EAD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18407BC51C4750F300800EAD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18407BA91C4750F200800EAD;
+					};
+					18407BD01C4750F300800EAD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18407BA91C4750F200800EAD;
+					};
+				};
+			};
+			buildConfigurationList = 18407BA51C4750F200800EAD /* Build configuration list for PBXProject "LGYDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18407BA11C4750F200800EAD;
+			productRefGroup = 18407BAB1C4750F200800EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18407BA91C4750F200800EAD /* LGYDemo */,
+				18407BC51C4750F300800EAD /* LGYDemoTests */,
+				18407BD01C4750F300800EAD /* LGYDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18407BA81C4750F200800EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18407BC01C4750F200800EAD /* LaunchScreen.storyboard in Resources */,
+				18407BBD1C4750F200800EAD /* Assets.xcassets in Resources */,
+				18407BB81C4750F200800EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BC41C4750F300800EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BCF1C4750F300800EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18407BA61C4750F200800EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18407BB51C4750F200800EAD /* ViewController.m in Sources */,
+				18407BBB1C4750F200800EAD /* LGYDemo.xcdatamodeld in Sources */,
+				18407BB21C4750F200800EAD /* AppDelegate.m in Sources */,
+				18407BAF1C4750F200800EAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BC21C4750F300800EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18407BCB1C4750F300800EAD /* LGYDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18407BCD1C4750F300800EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18407BD61C4750F300800EAD /* LGYDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18407BC81C4750F300800EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18407BA91C4750F200800EAD /* LGYDemo */;
+			targetProxy = 18407BC71C4750F300800EAD /* PBXContainerItemProxy */;
+		};
+		18407BD31C4750F300800EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18407BA91C4750F200800EAD /* LGYDemo */;
+			targetProxy = 18407BD21C4750F300800EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18407BB61C4750F200800EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18407BB71C4750F200800EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18407BBE1C4750F200800EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18407BBF1C4750F200800EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18407BD81C4750F300800EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18407BD91C4750F300800EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18407BDB1C4750F300800EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGYDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18407BDC1C4750F300800EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGYDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18407BDE1C4750F300800EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGYDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGYDemo.app/LGYDemo";
+			};
+			name = Debug;
+		};
+		18407BDF1C4750F300800EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGYDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGYDemo.app/LGYDemo";
+			};
+			name = Release;
+		};
+		18407BE11C4750F300800EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGYDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGYDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18407BE21C4750F300800EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGYDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YInter.LGYDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGYDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18407BA51C4750F200800EAD /* Build configuration list for PBXProject "LGYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18407BD81C4750F300800EAD /* Debug */,
+				18407BD91C4750F300800EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18407BDA1C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18407BDB1C4750F300800EAD /* Debug */,
+				18407BDC1C4750F300800EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18407BDD1C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18407BDE1C4750F300800EAD /* Debug */,
+				18407BDF1C4750F300800EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18407BE01C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18407BE11C4750F300800EAD /* Debug */,
+				18407BE21C4750F300800EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18407BB91C4750F200800EAD /* LGYDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18407BBA1C4750F200800EAD /* LGYDemo.xcdatamodel */,
+			);
+			currentVersion = 18407BBA1C4750F200800EAD /* LGYDemo.xcdatamodel */;
+			path = LGYDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18407BA21C4750F200800EAD /* Project object */;
+}
