@@ -16,6 +16,7 @@
 		18407BC01C4750F200800EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18407BBE1C4750F200800EAD /* LaunchScreen.storyboard */; };
 		18407BCB1C4750F300800EAD /* LGYDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BCA1C4750F300800EAD /* LGYDemoTests.m */; };
 		18407BD61C4750F300800EAD /* LGYDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18407BD51C4750F300800EAD /* LGYDemoUITests.m */; };
+		18407BE61C47542400800EAD /* readme.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18407BE51C47542400800EAD /* readme.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		18407BD11C4750F300800EAD /* LGYDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGYDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18407BD51C4750F300800EAD /* LGYDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGYDemoUITests.m; sourceTree = "<group>"; };
 		18407BD71C4750F300800EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18407BE51C47542400800EAD /* readme.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = readme.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,8 @@
 		18407BA11C4750F200800EAD = {
 			isa = PBXGroup;
 			children = (
+				18407BE31C4753FB00800EAD /* DataController */,
+				18407BE41C4753FB00800EAD /* Model */,
 				18407BAC1C4750F200800EAD /* LGYDemo */,
 				18407BC91C4750F300800EAD /* LGYDemoTests */,
 				18407BD41C4750F300800EAD /* LGYDemoUITests */,
@@ -113,6 +117,7 @@
 				18407BC11C4750F200800EAD /* Info.plist */,
 				18407BB91C4750F200800EAD /* LGYDemo.xcdatamodeld */,
 				18407BAD1C4750F200800EAD /* Supporting Files */,
+				18407BE51C47542400800EAD /* readme.strings */,
 			);
 			path = LGYDemo;
 			sourceTree = "<group>";
@@ -141,6 +146,22 @@
 				18407BD71C4750F300800EAD /* Info.plist */,
 			);
 			path = LGYDemoUITests;
+			sourceTree = "<group>";
+		};
+		18407BE31C4753FB00800EAD /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataController;
+			path = LGYDemo/DataController;
+			sourceTree = "<group>";
+		};
+		18407BE41C4753FB00800EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = LGYDemo/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18407BE61C47542400800EAD /* readme.strings in Resources */,
 				18407BC01C4750F200800EAD /* LaunchScreen.storyboard in Resources */,
 				18407BBD1C4750F200800EAD /* Assets.xcassets in Resources */,
 				18407BB81C4750F200800EAD /* Main.storyboard in Resources */,
@@ -502,6 +524,7 @@
 				18407BDC1C4750F300800EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18407BDD1C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +533,7 @@
 				18407BDF1C4750F300800EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18407BE01C4750F300800EAD /* Build configuration list for PBXNativeTarget "LGYDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +542,7 @@
 				18407BE21C4750F300800EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
